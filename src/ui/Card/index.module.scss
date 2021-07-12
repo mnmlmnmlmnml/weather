@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  border: 2px solid black;
+  padding: 30px;
+  width: 100%;
+  margin-left: 10px;
+}
+.text {
+  font-size: 25px;
+  margin-bottom: 3px;
+}
+.desc {
+  background: orange;
+  font-weight: normal;
+  border-radius: 30px;
+  padding: 3px 9px;
+  font-size: 8px;
+}
+.temp {
+  font-size: 50px;
+  font-weight: bold;
+}
+.column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.img {
+  display: block;
+}

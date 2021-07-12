@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 30px;
+  margin: auto;
+  box-sizing: border-box;
+  background-image: url(../img/blue-sky-with-cloud-clean-energy-power-clear-weather-background_43284-772.jpg);
+  background-size: cover;
+  border-radius: 30px;
+}
+.input__wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.list {
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  z-index: 111;
+  width: 100%;
+  background: #f6f6f6;
+  border-radius: 5px;
+  overflow: auto;
+  max-height: 240px;
+}
+.item {
+  padding: 10px;
+}
+.item:hover {
+  background: gainsboro;
+  cursor: pointer;
+  transition: cubic-bezier(1, 0, 0, 1) 0.3s all;
+}
+
+.error {
+  font-size: 13px;
+  color: red;
+  font-weight: bold;
+}
+.card {
+  display: flex;
+
+  margin: 30px;
+}
